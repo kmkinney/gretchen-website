@@ -42,12 +42,23 @@
     color: var(--light-2);
 }
 
-.email-link {
+.email-link,
+.book-link {
     text-decoration: none;
     color: var(--primary);
 }
 
-.email-link:hover {
+.article-link {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.article-link:hover {
+    color: var(--secondary);
+}
+
+.email-link:hover,
+.book-link:hover {
     text-decoration: none;
     color: var(--secondary);
 }
@@ -123,5 +134,11 @@
 .rating {
     display: block;
     margin-bottom: 0.75em;
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    margin: 2em 0;
 }
 
