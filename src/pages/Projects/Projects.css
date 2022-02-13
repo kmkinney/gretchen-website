@@ -1,0 +1,29 @@
+.page-container {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.article-link {
+    text-decoration: underline;
+    color: var(--primary);
+}
+
+.article-link:hover {
+    color: var(--secondary);
+}
+
+.book-link {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.book-link:hover {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+.divider {
+    height: 2px;
+    width: 100%;
+    margin: 2em 0 1em 0;
+}
