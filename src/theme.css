@@ -1,0 +1,36 @@
+/* Defines the Theme for the site*/
+
+:root {
+    /* Dummy theme */
+    /* --dark: #121212; */
+    /* --primary: #FF0000;
+    --secondary: #0000FF;
+    --accent: #00FF00; */
+    /* --light: #D5D5D5; */
+
+    /* Theme 1 */
+    --primary: #6D2E46;
+    --dark: #0B3C49;
+    --secondary: #a26769;
+    --accent: #49A078;
+    --light: #ECE2D0;
+    --light-2: #ece2d0ec;
+}
+
+/* Bootstrap Overrides */
+.bg-dark{background-color: var(--dark) !important;}
+.bg-light{background-color: var(--light) !important;}
+.bg-primary{background-color: var(--primary) !important;}
+.bg-secondary{background-color: var(--secondary) !important;}
+.bg-accent{background-color: var(--accent) !important;}
+
+.text-light{color: var(--light) !important;}
+.text-muted{color: var(--light-2) !important;}
+.text-dark{color: var(--dark) !important;}
+.text-primary{color: var(--primary) !important}
+
+/* Other color overrides */
+.form-control:focus {
+    border-color: var(--secondary);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.75), 0 0 4px rgba(162, 103, 105, 0.6);
+}

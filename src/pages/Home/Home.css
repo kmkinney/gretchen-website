@@ -1,0 +1,26 @@
+.page-container {
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+.banner-title {
+    font-size: 2em;
+    margin: 0;
+}
+
+.banner-item {
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+}
+
+.email-link,
+.book-link {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.email-link:hover,
+.book-link:hover {
+    text-decoration: none;
+    color: var(--secondary);
+}
