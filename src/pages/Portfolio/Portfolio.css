@@ -1,0 +1,34 @@
+.portfolio-page{
+    /* max-width: 950px; */
+    /* margin: 0 auto; */
+    /* position: relative; */
+    width: 80%;
+    height: auto;
+    margin-left: 20%;
+}
+
+.section-buttons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.section-button {
+    text-decoration: none;
+    color: var(--light);
+    background-color: var(--secondary);
+    padding: 5px 30px;
+    margin: 5px 10px;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.section-button:hover {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.em {
+    font-style: italic;
+}

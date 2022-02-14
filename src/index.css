@@ -6,6 +6,15 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'EB Garamond', serif;
+    scroll-behavior: smooth;
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+.page{
+    max-width: 950px;
+    margin: 0 auto;
+    /* background-color: var(--light); */
 }
 
 body {
@@ -16,4 +25,9 @@ body {
 code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+::-webkit-scrollbar{
+    /* width: 0; */
+    /* background: transparent; */
 }
