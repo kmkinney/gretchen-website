@@ -6,8 +6,8 @@ import { useState } from 'react';
 export default function Navbar() {
     // const [active, isActive] = useState(false);
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary justify-content-between pl-lg-0">
-            <div className="container-fluid nav-container">
+        <nav className="navbar navbar-expand-md navbar-dark bg-primary justify-content-between pl-lg-0">
+            <div className="container-fluid nav-container page">
                 <NavLink className="navbar-brand" to="/">
                     <span className="text-light cursive">Gretchen Kinney</span>
                 </NavLink>
@@ -19,7 +19,7 @@ export default function Navbar() {
                     <ul className="navbar-nav mr-auto">
                         {Links.map((link, index) => {
                             return(
-                                <NavLink to={link.path} className="nav-link">
+                                <NavLink key={index} to={link.path} className="nav-link">
                                     {link.name}
                                 </NavLink>
                             );

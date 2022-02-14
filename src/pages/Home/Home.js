@@ -3,7 +3,7 @@ import './Home.css';
 export default function Home() {
     const portraitImage = require('../../images/gretchen.jpg')
     return (
-        <div className="page-container container-fluid bg-light text-primary">
+        <div className="page container-fluid bg-light text-primary">
             <div className="row">
                 <div className="col-12 mt-2 mt-lg-4 mb-lg-2 p-lg-0">
                     <h2 className="">Hi, I'm Gretchen! <i className="bi bi-emoji-smile"></i></h2>
