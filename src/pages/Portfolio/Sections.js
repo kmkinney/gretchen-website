@@ -1,24 +1,11 @@
 export const Sections = [
     {
-        name: 'Professional Documents',
+        name: '',
         items: [
             {
                 title: 'Résumé',
                 italicized: false,
                 tag: 'resume',
-                items: [
-                    {
-                        title: 'Resume',
-                        description: 'My Resume',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'https://google.com'
-                    }
-                ]
-            },
-            {
-                title: 'Cover Letter',
-                italicized: false,
-                tag: 'cov',
                 items: [
                     {
                         title: 'Resume',
