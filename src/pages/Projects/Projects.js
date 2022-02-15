@@ -96,6 +96,9 @@ export default function Projects() {
                         <div className="col-5">
                             <img className="img-fluid" src={adventurePage} alt="" />
                         </div>
+                        <div className='col-12 text-center text-secondary my-5'>
+                            <h2>More projects coming soon...</h2>
+                        </div>
                 </div>
 
 

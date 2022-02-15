@@ -8,8 +8,8 @@ export default function PortfolioSection(props) {
             <h2 className='section-title' id={Section.tag}>
                 <span className={Section.italicized ? 'em' : ''}>{Section.title}</span>
                 {Section.description ? ' ' + Section.description : ''}
-                <a className='top' href='#top'>Back to Top</a>
             </h2>
+                <a className='top' href='#top'>Back to Top</a>
             {Section.items.map((item, index) => {
                 return (
                     <div key={index} className='section-item container-fluid'>

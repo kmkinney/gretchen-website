@@ -19,7 +19,8 @@
 .text-light{color: var(--light) !important;}
 .text-muted{color: var(--light-2) !important;}
 .text-dark{color: var(--dark) !important;}
-.text-primary{color: var(--primary) !important}
+.text-primary{color: var(--primary) !important;}
+.text-secondary{color: var(--secondary) !important;}
 
 /* Other color overrides */
 .form-control:focus {
