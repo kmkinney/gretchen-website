@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 import './PortfolioSection.css';
 
 export default function PortfolioSection(props) {
-    const Section = props.section;
+    const Section = props.item;
     return (
         <div>
             <h2 className='section-title' id={Section.tag}>
