@@ -32,3 +32,21 @@
 .em {
     font-style: italic;
 }
+
+.back-to-top {
+    display: block;
+    text-decoration: none;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--primary);
+    color: var(--light);
+}
+
+.back-to-top:hover {
+    text-decoration: none;
+    color: var(--secondary);
+}
