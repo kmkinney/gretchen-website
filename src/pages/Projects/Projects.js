@@ -12,7 +12,7 @@ export default function Projects() {
     const root = process.env.PUBLIC_URL;
     const norton = root + '/assets/Norton-Pitch.pdf';
     const cloudNine = root + '/assets/Cloud9.pdf';
-    const criterion = root + '/assets/Summary-of-Editing-for-Criterion.pdf';
+    const criterion = root + '/assets/Summary-of-Experience-Editing-for-Criterion.pdf';
     const chemistry = root + '/assets/Chemistry-of-Literary-Theory.pdf';
 
     return (
