@@ -29,9 +29,9 @@ export default function Projects() {
                     <a className="article-link" href={norton} target="_blank">
                         <h3>Norton Pitch<i className="bi bi-download ml-2"></i></h3>
                     </a>
-                    <p>A pretend pitch to the <em>Norton Anthology</em>
+                    <p>A pretend pitch to the<em> Norton Anthology </em>
                         arguing for the inclusion of Salman Rushdie's
-                        <em>Midnight's Children</em>
+                        <em> Midnight's Children </em>
                         in the <em>Modernist Norton.</em>
                     </p>
                 </div>

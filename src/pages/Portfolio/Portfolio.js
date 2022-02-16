@@ -9,16 +9,15 @@ export default function Portfolio() {
     const NortonTitle = 'Norton Pitch'
     // const NortonPDF = process.env.PUBLIC_URL+'/assets/Norton-Pitch.pdf';
 
-
     return (
         <div className="page text-primary">
             {/* <Sidebar sections={Sections}/> */}
-            <h1>My Portfolio</h1>
+            <h1 className='text-center my-2'>Portfolio</h1>
             <SectionNav />
             <SectionContent />
 
-            <BottomBar to='#top' sections={Sections}>
-            </BottomBar>
+            {/* <BottomBar to='#top' sections={Sections}>
+            </BottomBar> */}
         </div>
     );
 }

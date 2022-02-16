@@ -10,15 +10,17 @@ export const Sections = [
                     {
                         title: 'Resume',
                         description: 'My Resume',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'https://google.com'
+                        src: '/assets/GKinney_Resume.pdf',
+                        link: '/assets/GKinney_Resume.pdf',
+                        linktext: 'View Fullscreen'
                     }
                 ]
-            }
+            },
         ]
     },
     {
-        name: 'Sample Articles',
+        name: 'Writing Samples',
+        tag: '',
         items: [
             {
                 title: 'Friend',
@@ -27,10 +29,18 @@ export const Sections = [
                 tag: 'friend',
                 items: [
                     {
-                        title: 'Sample 1',
+                        title: 'Ministering Buddies',
                         description: 'A sample of my work',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'https://www.google.com'
+                        src: '/assets/Ministering-Buddy.pdf',
+                        link: '/assets/Ministering-Buddy.pdf',
+                        linktext: 'View Full Screen'
+                    },
+                    {
+                        title: 'The Eraser',
+                        description: 'Eraser article',
+                        src: '/assets/The-Eraser.pdf',
+                        link: '/assets/The-Eraser.pdf',
+                        linktext: 'View Fullscreen'
                     }
                 ]
             },
@@ -82,32 +92,26 @@ export const Sections = [
         name: 'Editing Samples',
         items: [
             {
-                title: 'Copyediting',
-                tag: 'copy',
-                items: [
-                    {
-                        title: 'Sample 1',
-                        description: 'A sample of my work',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'https://www.google.com'
-                    }
-                ]
-            },
-            {
                 title: 'Substantive Editing',
                 tag: 'sub',
                 items: [
                     {
-                        title: 'Sample 1',
+                        title: 'YA Weekly Draft',
                         description: 'A sample of my work',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'https://www.google.com'
+                        link: 'https://docs.google.com/document/d/1A0UTUjZNTFxWHWP_EkvAAXWOUsasWZxxhh-4GIHG5SU/edit?usp=sharing',
+                        linktext: 'Click Me'
+                    },
+                    {
+                        title: 'Friend Draft',
+                        description: 'A sample Friend articles',
+                        link: 'https://docs.google.com/document/d/135gUYGC5yrX9uzYOqwSuKjcCYs2FwmsDs92lOF8EGFo/edit?usp=sharing',
+                        linktext: 'Click Me'
                     }
                 ]
             },
             {
-                title: 'Portfolio Drafts',
-                tag: 'drafts',
+                title: 'Copyediting',
+                tag: 'copy',
                 items: [
                     {
                         title: 'Sample 1',
