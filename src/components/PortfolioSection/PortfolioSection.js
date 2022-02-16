@@ -9,7 +9,6 @@ export default function PortfolioSection(props) {
                 <span className={Section.italicized ? 'em' : ''}>{Section.title}</span>
                 {Section.description ? ' ' + Section.description : ''}
             </h2>
-            <a className='top' href='#top'>Back to Top</a>
             {Section.items.map((item, index) => {
                 return (
                     <PortfolioItem key={index} item={item} />
@@ -27,8 +26,8 @@ function PortfolioItem(props) {
             <div className='section-item container-fluid'>
                 <div className='row'>
                     <div className='col-md-4 col-12'>
-                        <h2>{item.title}</h2>
-                        <p>{item.description}</p>
+                        <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
+                        <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
                     </div>
                     <div className='col-md-8 col-12'>
                         <a className='drive-link' href={item.link} target='_blank'>
@@ -44,8 +43,8 @@ function PortfolioItem(props) {
         <div className='section-item container-fluid'>
             <div className='row'>
                 <div className='col-md-6 col-12'>
-                    <h2>{item.title}</h2>
-                    <p>{item.description}</p>
+                    <h2 dangerouslySetInnerHTML={{ __html: item.title }}></h2>
+                    <p dangerouslySetInnerHTML={{ __html: item.description }}></p>
                 </div>
                 <div className='col-md-6 col-12'>
                     <a className='pdf-link' href={item.link} target="_blank">{item.linktext}</a>

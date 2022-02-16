@@ -2,7 +2,7 @@ import './Footer.css';
 
 export default function Footer() {
     return (
-        <footer className="row bg-secondary text-light text-center pt-2 pb-4">
+        <footer className="row bg-secondary text-light text-center">
             <div className="col-12">
                 <span className="footer-content">Gretchen Picklesimer Kinney</span>
             </div>

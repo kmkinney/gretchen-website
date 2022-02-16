@@ -37,14 +37,14 @@ export const Sections = [
                     },
                     {
                         title: 'Ministering Buddies',
-                        description: 'A sample of my work',
+                        description: 'Elizabeth helps her mom minister to Sister Monroe, a blind woman. This story is special to me because the real life Sister Monroe is still my very good friend.'                        ,
                         src: '/assets/Ministering-Buddy.pdf',
                         link: '/assets/Ministering-Buddy.pdf',
                         linktext: 'View Fullscreen'
                     },
                     {
                         title: 'The Eraser',
-                        description: 'Eraser article',
+                        description: 'This story follows Ellie as she learns about the importance of honesty and repentance. This story is based on an experience I had in elementary school.',
                         src: '/assets/The-Eraser.pdf',
                         link: '/assets/The-Eraser.pdf',
                         linktext: 'View Fullscreen'
@@ -66,7 +66,7 @@ export const Sections = [
                     },
                     {
                         title: '"Combating Toxic Perfectionism"',
-                        description: 'I love sweeties',
+                        description: 'This article shares my experience dealing with perfectionism. I talk about how remembering my identity as a child of God helped me recognize my intrinsic value and combat thoughts of inadequacy.',
                         src: '/assets/Combating_Toxic_Perfectionism_YA_Weekly.pdf',
                         link:'/assets/Combating_Toxic_Perfectionism_YA_Weekly.pdf',
                         linktext: 'View Fullscreen'
@@ -88,7 +88,7 @@ export const Sections = [
                     },                   
                     {
                         title: '"Eight Tips for a More Meaningful Scripture Study"',
-                        description: '',
+                        description: 'This article gives ideas for improving scripture study. Each idea includes a quote from a general authority and a brief description. These ideas came from personal experience and suggestions from friends and family.',
                         src: '/assets/FSY-article.pdf',
                         link:'/assets/FSY-article.pdf',
                         linktext: 'View Fullscreen'
@@ -110,7 +110,7 @@ export const Sections = [
                     },
                     {
                         title: '100 Word Summaries',
-                        description: '',
+                        description: 'For these shorter articles, I condensed a general conference talk, a section from gospel topics, and a section from the <em>For the Strength of Youth</em> booklet.',
                         src: '/assets/Gospel-living-100-Word-Summaries.pdf',
                         link:'/assets/Gospel-living-100-Word-Summaries.pdf',
                         linktext: 'View Fullscreen'
@@ -125,7 +125,7 @@ export const Sections = [
                 items: [
                     {
                         title: 'Growth Mindset Teaser',
-                        description: '',
+                        description: 'This teaser is for the article “Helping Children and Youth Develop a Growth Mindset” from the February 2022 <em>Liahona</em>. ',
                         src: '/assets/Article-Teaser-Growth-Mindset.pdf',
                         link:'assets/Article-Teaser-Growth-Mindset.pdf',
                         linktext: 'View Fullscreen'
@@ -142,16 +142,29 @@ export const Sections = [
                 tag: 'sub',
                 items: [
                     {
-                        title: 'YA Weekly Draft',
+                        title: '<em>YA Weekly</em> Draft',
                         description: 'A sample of my work',
                         link: 'https://docs.google.com/document/d/1A0UTUjZNTFxWHWP_EkvAAXWOUsasWZxxhh-4GIHG5SU/edit?usp=sharing',
-                        linktext: 'Click Me'
+                        linktext: 'Click here to view Google Doc'
                     },
                     {
-                        title: 'Friend Draft',
+                        title: '<em>Friend</em> Draft',
                         description: 'A sample Friend articles',
                         link: 'https://docs.google.com/document/d/135gUYGC5yrX9uzYOqwSuKjcCYs2FwmsDs92lOF8EGFo/edit?usp=sharing',
-                        linktext: 'Click Me'
+                        linktext: 'Click here to view Google Doc'
+                    }
+                    ,
+                    {
+                        title: '<em>For the Strength of Youth</em> Draft',
+                        description: 'A sample Friend articles',
+                        link: 'https://docs.google.com/document/d/135gUYGC5yrX9uzYOqwSuKjcCYs2FwmsDs92lOF8EGFo/edit?usp=sharing',
+                        linktext: 'Click here to view Google Doc'
+                    },
+                    {
+                        title: 'Gospel Living Draft',
+                        description: 'A sample Friend articles',
+                        link: 'https://docs.google.com/document/d/135gUYGC5yrX9uzYOqwSuKjcCYs2FwmsDs92lOF8EGFo/edit?usp=sharing',
+                        linktext: 'Click here to view Google Doc'
                     }
                 ]
             },
