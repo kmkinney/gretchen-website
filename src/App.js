@@ -5,6 +5,7 @@ import Home from './pages/Home/Home';
 import Portfolio from './pages/Portfolio/Portfolio';
 import {Route, Routes} from 'react-router-dom';
 import Projects from './pages/Projects/Projects';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='portfolio' element={<Portfolio />} />
         <Route path='projects' element={<Projects />} />
+        <Route path='*' element={<NotFound />} />
     </Routes>
     <Footer />
     </div>
