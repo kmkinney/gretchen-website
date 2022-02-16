@@ -10,7 +10,7 @@ export default function Home() {
                     <h2 className="">
                         Hi, I'm Gretchen! 
                         <i className="bi bi-emoji-smile"></i>
-                        <a className='resume-link' href='/portfolio#resume'>See My Resume</a>
+                        <a className='resume-link' href='/portfolio#resume'>See My Résumé</a>
                     </h2>
                 </div>
                 <div className="col-md-4 col-12 m-md-0 p-md-0 mb-3 order-md-1">

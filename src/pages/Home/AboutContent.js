@@ -4,7 +4,7 @@ export const AboutContent = {
     in English and minoring in editing and French. She plans to graduate 
     April 2024.`,
     skills: [
-        "Experience with substantive editing and copy editing",
+        "Experience with substantive editing and copyediting",
         "Proficient in Adobe InDesign, Photoshop, and Illustrator",
         "Advanced French speaking, reading, and writing",
         "Polished creative, academic, and professional writing"
