@@ -1,7 +1,7 @@
 // Sections for the Portfolio
 const yaLink = 'https://docs.google.com/document/d/1A0UTUjZNTFxWHWP_EkvAAXWOUsasWZxxhh-4GIHG5SU/edit';
 const friendBuddyLink = 'https://docs.google.com/document/d/1rwR8CX6AnInUqD0EnNOCj7jP_0qlPjM3_Lu-EqB3qL0/edit';
-const friendEraserLink = 'https://docs.google.com/document/d/1rwR8CX6AnInUqD0EnNOCj7jP_0qlPjM3_Lu-EqB3qL0/edit';
+const friendEraserLink = 'https://docs.google.com/document/d/135gUYGC5yrX9uzYOqwSuKjcCYs2FwmsDs92lOF8EGFo/edit'; 
 const fsyLink = 'https://docs.google.com/document/d/1IFyIQnddGzfhYmDhZnsZtU6yGEkgKoufy0gdGG1SBjk/edit';
 const gospelLink = 'https://docs.google.com/document/d/1z7tHTxDhaD0EKxjMwtnocAmwA2NW8Hrzh4geCKd-9Rk/edit';
 const criterionLink = 'https://docs.google.com/document/d/1pAXzvXE36BKCqxHXl_3Z0ArAablRLGClbJ45amk24lU/edit';
@@ -17,8 +17,8 @@ export const Sections = [
                 tag: 'resume',
                 items: [
                     {
-                        title: 'Resume',
-                        description: 'My Resume',
+                        title: 'Résumé',
+                        description: '',
                         src: '/assets/GKinney_Resume.pdf',
                         link: '/assets/GKinney_Resume.pdf',
                         linktext: 'View Fullscreen'
@@ -45,14 +45,14 @@ export const Sections = [
                         linktext: 'View Fullscreen'
                     },
                     {
-                        title: 'Ministering Buddies',
+                        title: '"Ministering Buddy"',
                         description: 'Elizabeth helps her mom minister to Sister Monroe, a blind woman. This story is special to me because the real life Sister Monroe is still my very good friend.',
                         src: '/assets/Ministering-Buddy.pdf',
                         link: '/assets/Ministering-Buddy.pdf',
                         linktext: 'View Fullscreen'
                     },
                     {
-                        title: 'The Eraser',
+                        title: '"The Eraser"',
                         description: 'This story follows Ellie as she learns about the importance of honesty and repentance. This story is based on an experience I had in elementary school.',
                         src: '/assets/The-Eraser.pdf',
                         link: '/assets/The-Eraser.pdf',
@@ -129,7 +129,7 @@ export const Sections = [
             {
                 title: '100-Word Teaser',
                 italicized: false,
-                description: 'Writing Samples',
+                description: '',
                 tag: 'tease',
                 items: [
                     {
