@@ -15,6 +15,7 @@
 
 .section-item {
     padding: 0 10px;
+    margin-bottom: 20px;
 }
 
 .em {
@@ -28,9 +29,28 @@
     text-decoration: none;
     color: var(--light);
     background-color: var(--primary);
-    font-size: 1.25em;
+    border-radius: 5px;
+    font-size: 1.5em;
 }
 .top:hover {
     text-decoration: none;
     color: var(--secondary);
+}
+
+.drive-link {
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: var(--primary);
+    margin-left: 30px;
+}
+
+.pdf-link:hover,
+.drive-link:hover {
+    color: var(--secondary);
+}
+
+.pdf-link {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: var(--primary);
 }

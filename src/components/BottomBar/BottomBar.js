@@ -12,7 +12,9 @@ export default function BottomBar(props) {
 
     return (
         <div className={isOpen ? 'bottom-bar' : 'bottom-bar hidden'} >
-            <div onClick={toggleBar} className='hide'></div>
+            <div onClick={toggleBar} className='hide'>
+                <i className={isOpen ? 'bi bi-arrow-down' : 'bi bi-arrow-up'}></i>
+            </div>
             <a className='bar-link' href={location}>Back To Top</a>
             <div className='bar-buttons'>
                 {Sections[1].items.map((item, index) => {
