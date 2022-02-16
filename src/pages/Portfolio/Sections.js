@@ -29,11 +29,18 @@ export const Sections = [
                 tag: 'friend',
                 items: [
                     {
+                        title: 'Cover Letter',
+                        description: '',
+                        src: '/assets/Kinney_CoverLetter.pdf',
+                        link: '/assets/Kinney_CoverLetter.pdf',
+                        linktext: 'View Fullscreen'
+                    },
+                    {
                         title: 'Ministering Buddies',
                         description: 'A sample of my work',
                         src: '/assets/Ministering-Buddy.pdf',
                         link: '/assets/Ministering-Buddy.pdf',
-                        linktext: 'View Full Screen'
+                        linktext: 'View Fullscreen'
                     },
                     {
                         title: 'The Eraser',
@@ -51,10 +58,18 @@ export const Sections = [
                 tag: 'ya',
                 items: [
                     {
-                        title: 'Sample 1',
-                        description: 'A sample of my work',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'google.com'
+                        title: 'Cover Letter',
+                        description: '',
+                        src: '/assets/YA_Weekly_Cover_Letter.pdf',
+                        link:'/assets/YA_Weekly_Cover_Letter.pdf',
+                        linktext: 'View Fullscreen'
+                    },
+                    {
+                        title: '"Combating Toxic Perfectionism"',
+                        description: 'I love sweeties',
+                        src: '/assets/Combating_Toxic_Perfectionism_YA_Weekly.pdf',
+                        link:'/assets/Combating_Toxic_Perfectionism_YA_Weekly.pdf',
+                        linktext: 'View Fullscreen'
                     }
                 ]
             },
@@ -65,10 +80,18 @@ export const Sections = [
                 tag: 'fsy',
                 items: [
                     {
-                        title: 'Sample 1',
-                        description: 'A sample of my work',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'google.com'
+                        title: 'Cover Letter',
+                        description: '',
+                        src: '/assets/FSYKinney_CoverLetter.pdf',
+                        link:'/assets/FSYKinney_CoverLetter.pdf',
+                        linktext: 'View Fullscreen'
+                    },                   
+                    {
+                        title: '"Eight Tips for a More Meaningful Scripture Study"',
+                        description: '',
+                        src: '/assets/FSY-article.pdf',
+                        link:'/assets/FSY-article.pdf',
+                        linktext: 'View Fullscreen'
                     }
                 ]
             },
@@ -79,11 +102,34 @@ export const Sections = [
                 tag: 'gl',
                 items: [
                     {
-                        title: 'Sample 1',
-                        description: 'A sample of my work',
-                        src: '/assets/Norton-Pitch.pdf',
-                        link: 'google.com'
+                        title: 'Cover Letter',
+                        description: '',
+                        src: '/assets/Gospel-Living-Cover-Letter.pdf',
+                        link:'/assets/Gospel-Living-Cover-Letter.pdf',
+                        linktext: 'View Fullscreen'
+                    },
+                    {
+                        title: '100 Word Summaries',
+                        description: '',
+                        src: '/assets/Gospel-living-100-Word-Summaries.pdf',
+                        link:'/assets/Gospel-living-100-Word-Summaries.pdf',
+                        linktext: 'View Fullscreen'
                     }
+                ]
+            },
+            {
+                title: '100-Word Teaser',
+                italicized: false,
+                description: 'Writing Samples',
+                tag: 'tease',
+                items: [
+                    {
+                        title: 'Growth Mindset Teaser',
+                        description: '',
+                        src: '/assets/Article-Teaser-Growth-Mindset.pdf',
+                        link:'assets/Article-Teaser-Growth-Mindset.pdf',
+                        linktext: 'View Fullscreen'
+                    },
                 ]
             }
         ]

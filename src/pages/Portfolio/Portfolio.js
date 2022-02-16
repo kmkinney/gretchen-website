@@ -18,6 +18,7 @@ export default function Portfolio() {
 
             {/* <BottomBar to='#top' sections={Sections}>
             </BottomBar> */}
+            <a className='back-to-top' href='#top'>Back To Top</a>
         </div>
     );
 }
