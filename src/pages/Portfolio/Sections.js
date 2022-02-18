@@ -208,6 +208,20 @@ export const Sections = [
                     }
 
                 ]
+            },
+            {
+                title: 'General Publications',
+                tag: 'gp',
+                items: [
+                    {
+                        title: 'Long Editing Test',
+                        description: '',
+                        src: '/assets/General-Publications-Long-Editing-Test.pdf',
+                        link: '/assets/General-Publications-Long-Editing-Test.pdf',
+                        linktext: 'View Fullscreen'
+                    }
+
+                ]
             }
         ]
     }
