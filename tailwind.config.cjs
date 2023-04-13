@@ -9,6 +9,9 @@ module.exports = {
           light: "#A26769",
         },
       },
+      gridTemplateColumns: {
+        "1/4": "1fr 4fr 1fr",
+      },
     },
   },
   plugins: [],

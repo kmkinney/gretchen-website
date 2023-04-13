@@ -1,0 +1,15 @@
+---
+type Props = {
+  slug: string;
+  title: string;
+  coverImage: string;
+};
+const { slug, coverImage, title } = Astro.props;
+---
+
+<li>
+  <a class="hover:cursor-pointer block w-36" href={`/blog/${slug}/`}>
+    <img class="w-full" src={coverImage} />
+    <p>{title}</p>
+  </a>
+</li>

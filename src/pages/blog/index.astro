@@ -2,9 +2,9 @@
 import BaseHead from "../../components/BaseHead.astro";
 import Header from "../../components/Header.astro";
 import Footer from "../../components/Footer.astro";
+import BlogLink from "../../components/blog/BlogLink.astro";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import { getCollection } from "astro:content";
-import FormattedDate from "../../components/FormattedDate.astro";
 
 const posts = (await getCollection("blog")).sort(
   (a, b) => a.data.pubDate.valueOf() - b.data.pubDate.valueOf()
@@ -18,17 +18,29 @@ const posts = (await getCollection("blog")).sort(
   </head>
   <body>
     <Header />
-    <main>
-      <section class="text-center text-lg my-8">
-        <ul class="text-primary space-y-4">
+    <main class="text-center grid grid-cols-1/4">
+      <aside class="z-10 w-full">
+        <h2 class="mt-8">Genres</h2>
+        <ul>
+          <li>A</li>
+          <li>B</li>
+          <li>C</li>
+          <li>D</li>
+          <li>E</li>
+        </ul>
+      </aside>
+      <section class="text-center text-lg my-8 h-screen">
+        <h1 class="text-3xl border-b-2 mb-4 py-2 border-b-primary-light/30">
+          All Posts
+        </h1>
+        <ul class="text-primary flex flex-row justify-around">
           {
             posts.map((post) => (
-              <li>
-                <a class="hover:cursor-pointer" href={`/blog/${post.slug}/`}>
-                  <FormattedDate date={post.data.pubDate} />
-                  {post.data.title}
-                </a>
-              </li>
+              <BlogLink
+                slug={post.slug}
+                title={post.data.title}
+                coverImage={post.data.coverImage ?? ""}
+              />
             ))
           }
         </ul>

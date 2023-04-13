@@ -1,16 +1,21 @@
 ---
 import HeaderLink from "./HeaderLink.astro";
+import SearchBox from "./SearchBox.astro";
 import { SITE_TITLE } from "../consts";
 ---
 
-<header class="bg-primary text-white flex h-16 p-4 items-center">
-  <img class="w-8 h-8 ml-4" src="/rat.svg" />
-  <h2 class="text-3xl mr-8">
-    {SITE_TITLE}
-  </h2>
-  <nav class="text-xl space-x-4">
-    <HeaderLink href="/">Home</HeaderLink>
-    <HeaderLink href="/blog">Blog</HeaderLink>
-    <!-- <HeaderLink href="/about">About</HeaderLink> -->
-  </nav>
+<header
+  class="bg-primary text-white h-16 p-4 flex mx-auto justify-center items-center"
+>
+  <div class="flex items-center w-full">
+    <img class="w-8 h-8 ml-4 mr-4" src="/rat.svg" />
+    <h2 class="text-3xl mr-8 whitespace-nowrap">
+      {SITE_TITLE}
+    </h2>
+    <nav class="text-xl space-x-4 whitespace-nowrap">
+      <HeaderLink href="/">Home</HeaderLink>
+      <HeaderLink href="/blog">Blog</HeaderLink>
+    </nav>
+  </div>
+  <SearchBox />
 </header>
