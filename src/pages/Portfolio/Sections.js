@@ -19,8 +19,8 @@ export const Sections = [
           {
             title: 'Résumé',
             description: '',
-            src: '/assets/GKinney_Resume.pdf',
-            link: '/assets/GKinney_Resume.pdf',
+            src: '/assets/Kinney, Gretchen_Resume.pdf',
+            link: '/assets/Kinney, Gretchen_Resume.pdf',
             linktext: 'View Fullscreen'
           }
         ]
