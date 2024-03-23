@@ -95,8 +95,8 @@ export const Sections = [
           {
             title: 'Drops to Zero',
             description: `A sample copyedit of a 8,600-word science fiction short story about a world where smartwatches can predict probability of death.`,
-            src: '/assets/Gretchen Kinney_Editorial Assessment_Blood Magic.pdf',
-            link: '/assets/Gretchen Kinney_Editorial Assessment_Blood Magic.pdf',
+            src: '/assets/Gretchen Kinney_Drops to Zero_Copyedit.pdf',
+            link: '/assets/Gretchen Kinney_Drops to Zero_Copyedit.pdf',
             linktext: 'View Fullscreen'
           }
         ]
